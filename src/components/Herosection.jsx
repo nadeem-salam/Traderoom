@@ -4,17 +4,17 @@ import Testimonial1 from '../assets/Testimonial-01.jpg';
 import Testimonial2 from '../assets/Testimonial-02.jpg';
 import Testimonial3 from '../assets/Testimonial-03.jpg';
 import Testimonial4 from '../assets/Testimonial-04.jpg';
-import heroImg from '../assets/hero-img-002.png';
+import heroImg from '../assets/Heros-04.png';
 
 const Herosection = () => {
   const images = [Testimonial1, Testimonial2, Testimonial3, Testimonial4];
 
   return (
     <div className="bg-[#c0ffea]">
-      <div className="bg-[#0e525f] min-h-screen rounded-b-3xl text-white p-4 pb-0 md:p-8">
+      <div className="bg-[#0e525f] h-4/5 rounded-b-3xl text-white px-1">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between">
-            <div className="md:w-4/6 mb-8 md:mb-0">
+            <div className="md:w-2/3 mb-8 md:mb-0">
               <h1 className="text-3xl mt-10 md:mt-0 md:text-5xl font-bold mb-4 text-center md:text-left">
                 Your path to trading Mastery{' '}
                 <span className="md:block text-[#2FFFB9]">starts here</span>
@@ -52,7 +52,7 @@ const Herosection = () => {
               <img 
                 src={heroImg} 
                 alt="Trader" 
-                className="rounded-lg w-full h-auto mt-[-30%]"
+                className="rounded-lg w-full h-auto"
               />
             </div>
           </div>
