@@ -4,7 +4,7 @@ TradeRoom is a landing page built using React, Vite, and Tailwind CSS. It featur
 
 ## Live URL
 
-The site is live at [[https://traderoom.vercel.app](https://traderoom.vercel.app)](https://traderoom-ndm.vercel.app/)
+The site is live at (https://traderoom-ndm.vercel.app/)
 
 ## Setup Instructions
 
